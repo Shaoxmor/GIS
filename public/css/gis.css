@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    border:0;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: white;
+}
+.nav-top-container-font{
+    width:100%;
+}
+.button-top{
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    /*border-right: solid 1px black;*/
+}
+.btn{
+    width:127.5px;
+    color: black;
+    background-color: white;
+    font-size: 13px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+#map-container{
+    display: flex;
+}
+#map1{
+    width:950px;
+    margin:0 20px 0 0;
+    height:630px;
+}
+#map2{
+    width:600px;
+    height:350px;
+    margin-bottom: 20px;
+}
+#map3{
+    width:600px;
+    height:260px;
+}
+.nav-left{
+    position: relative;
+}
+.body{
+    width: 100%;
+    height:1000px;
+}
+.personal{
+    height:140px;
+    padding-top: 20px;
+    text-align: center;
+    font-family:"Microsoft YaHei", sans-serif;
+    font-size: 13px;
+    margin-bottom:80px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right:10px;
+}
+.icon-top{
+    width: 20px;
+    height: 20px;
+    margin-right:5px;
+}
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+}
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+.ol-popup-closer:after {
+    content: "✖";
+}
+#tankuang {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #ddd;
+}
+.remove-ico {
+    max-width: 20px;
+    max-height: 20px;
+    /*transform:rotate(0deg);*/
+    /*-ms-transform:rotate(0deg); 	!* IE 9 *!*/
+    /*-moz-transform:rotate(0deg); 	!* Firefox *!*/
+    /*-webkit-transform:rotate(0deg); !* Safari 和 Chrome *!*/
+    /*-o-transform:rotate(0deg); 	!* Opera *!*/
+    transition: transform 0.5s linear;
+    -moz-transition: transform 0.5s linear; /* Firefox 4 */
+    -webkit-transition: transform 0.5s linear; /* Safari 和 Chrome */
+    -o-transition: transform 0.5s linear; /* Opera */
+}
+.remove-ico:hover {
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); 	/* IE 9 */
+    -moz-transform:rotate(180deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg); 	/* Opera */
+}
+#tankuang-content{
+    overflow: hidden;
+}
+#tankuang-id{
+    margin-left:20px;
+    font-size: 38px;
+    font-family:"Microsoft YaHei", sans-serif;
+}
+#line{
+    width:100%;
+    height:1px;
+    border-bottom: 1px solid #dcdcdc;
+}
+#xiangximsg {
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#tankuangmsg{
+    height: 60px;
+    width: 260px;
+}
+#inputarea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#writeOrNot{
+    background-color: #88adf6;
+}
+#writeOrNot,
+#deletebiaozhu{
+    display: block;
+    width:260px;
+    margin: auto;
+    margin-bottom:8px;
+}
+.sidebar {
+    height: 100%;
+}
+.nav-label{
+    color: #e5e5e5;
+}

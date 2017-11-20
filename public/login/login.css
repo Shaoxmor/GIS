@@ -1,0 +1,44 @@
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+html, body, .root {
+    height: 100%;
+}
+
+.root {
+    background: url("../images/bg_image.jpg")
+}
+
+.login-container {
+    position: absolute;
+    top: 130px;
+    left: calc((100% - 350px) / 2);
+    width: 350px;
+    height: 380px;
+}
+
+.login-logo-font-container {
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.login-form {
+    padding-top: 10px;
+    height: 275px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #778899;
+}
+
+.login-input-container {
+    margin: 30px 49px 10px;
+}
+
+.login-btn-container {
+    margin: 40px 50px 0;
+}
